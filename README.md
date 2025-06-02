@@ -144,9 +144,9 @@ def send_alert(req: func.HttpRequest) -> func.HttpResponse:
 
 ---
 
-### **Paso 5: Configurar function.json (HTTP Trigger)**
+### **Paso 5: Configurar function.json (HTTP Trigger)**  
 
-Actualiza `SendAlert/function.json` para permitir POST:
+Actualiza `SendAlert/function.json` para permitir POST (solo si existe el archivo en function.json):
 
 ```json
 {
